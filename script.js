@@ -12,7 +12,9 @@ const PI = 3.14
 
 
 // PRIMITIVE//
- // string: words//
+ // string: words which we put inside single or double quotes//
+ let middleName = "Chidimma"
+ let gender = "female"
  let favoriteMovie = "Harry Potter"
   //numbers//
   let age = 20
@@ -35,5 +37,5 @@ const PI = 3.14
   const add = (num1,num2) => {
     return num1 + num2
   }
-  console.log(add(1,2))
+  console.log(add  (1,2))
  
