@@ -11,18 +11,18 @@ const PI = 3.14
  2. Reference data type */
 
 
-// PRIMITIVE//
- // string: words which we put inside single or double quotes//
+// PRIMITIVE
+ // string: words which we put inside single or double quotes
  let middleName = "Chidimma"
  let gender = "female"
  let favoriteMovie = "Harry Potter"
-  //numbers//
+  //numbers
   let age = 20
-  //boolean//
+  //boolean, true or false value
   age = true
 
-  //Functions//
-  //function declaration syntax://
+  //Functions
+  //function declaration syntax:
 
   function sum (num1,num2){
     if (num2 === undefined){
@@ -33,7 +33,7 @@ const PI = 3.14
   console.log(sum(2,4))
   console.log(sum(2))
    
-  // we can also have an anonymous function or arrow function//
+  // we can also have an anonymous function or arrow function
   const add = (num1,num2) => {
     return num1 + num2
   }
