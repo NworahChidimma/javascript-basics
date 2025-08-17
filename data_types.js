@@ -57,3 +57,22 @@
 
    //NOT GATE (!)
    // it negates a boolean value
+
+    console.log("NOT OPERATOR")
+
+    console.log(true)
+    console.log(!true)
+
+    //REFERENCE DATA TYPES : arrays, objects
+
+    // array
+    let array = [ 2, 4, 12, 14]
+    // you can mix different datatypes in an array
+     let mixArray = [ 2, 5, 8, "Chidimma"]
+     //operations on an array: add, remove
+
+     let colourArray = ["red", "blue", "cyan", "purple", "yellow"]
+
+     colourArray.pop()
+     console.log(colourArray)
+     //console.log(colourArray.slice(2))
