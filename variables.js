@@ -1,5 +1,6 @@
 // VARIABLES//
 
+// This ia a container containing values which has a unique identifier
 var favoriteColor = "red"
 let name = "Chidimma"
 const PI = 3.14

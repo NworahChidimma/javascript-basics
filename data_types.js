@@ -42,7 +42,7 @@
    let b = false 
 
    console.log("z is", x && y)
-   console.log("z is", x&& a)
+   console.log("z is", x && a)
    console.log("z is", a && b)
    console.log("z is", sadeAge >= legalAge && bolaAge >= legalAge )
 
@@ -52,7 +52,7 @@
    console.log("OR GATE")
 
    console.log("z is", x || y)
-   console.log("z is", x|| b)
+   console.log("z is", x || b)
    console.log("z is", a ||  b)
 
    //NOT GATE (!)
@@ -74,5 +74,24 @@
      let colourArray = ["red", "blue", "cyan", "purple", "yellow"]
 
      colourArray.pop()
+     colourArray.push("Indigo")
+     colourArray[2] = "Violet"
      console.log(colourArray)
-     //console.log(colourArray.slice(2))
+     // length property
+     console.log(colourArray.length)
+     //last element in an array
+     console.log(colourArray[colourArray.length - 1])
+     //delete an element from a particular position
+     colourArray.splice(2, 1)
+     console.log(colourArray)
+
+     // joining two arrays 
+     const myArrayA = ["A", "B", "C"]
+     const myArrayB = ["D", "E", "F"]
+
+     const joinArray = myArrayA.concat(myArrayB)
+
+     console.log(joinArray)
+      // or
+     const newArray = [...myArrayB, ...myArrayA]
+     console.log(newArray)
