@@ -95,3 +95,13 @@
       // or
      const newArray = [...myArrayB, ...myArrayA]
      console.log(newArray)
+
+     //OBJECTS
+     // key value pairs in curly braces, they are used to store related data
+
+     let aboutMe = {
+        name: "Chidimma", 
+        age: 20,
+        favoriteColor: "red"
+         }
+         console.log(aboutMe)
