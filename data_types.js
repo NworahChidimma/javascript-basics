@@ -101,7 +101,10 @@
 
      let aboutMe = {
         name: "Chidimma", 
+        gender: "female",
         age: 20,
         favoriteColor: "red"
          }
+         aboutMe["height"] = "5'11"
+         aboutMe.favoriteColor = "red"
          console.log(aboutMe)

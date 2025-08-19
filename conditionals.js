@@ -1,0 +1,1 @@
+//CONDITIONALS: these are simply decision making abilities
