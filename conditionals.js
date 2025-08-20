@@ -12,14 +12,14 @@ let samObj = {
     nationality: "Canadian"
 }
 // check if you are eligible to vote in an election in Nigeria
-if(chiObj.nationality == "Nigerian" && chiObj.age >= 18) {
+if(chiObj.nationality.toUpperCase() == "Nigerian".toUpperCase() && chiObj.age >= 18) {
 console.log("You are eligible to vote")
 }
 else{
 console.log("You are not eligible to vote")
 }
 
-if(samObj.nationality == "Nigerian" && samObj.age >= 18) {
+if(samObj.nationality.toUpperCase() == "Nigerian".toUpperCase() && samObj.age >= 18) {
 console.log("You are eligible to vote")
 }
 else{
