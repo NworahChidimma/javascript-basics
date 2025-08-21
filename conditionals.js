@@ -25,3 +25,9 @@ console.log("You are eligible to vote")
 else{
 console.log("You are not eligible to vote")
 }
+
+// TRUTHY AND FALSY VALUES 
+/* anything when evaluated to a boolean and is true is a truthy value an 
+the opposite for falsy value */
+// truthy values: true, non-empty strings, arrays, numbers, objects
+// falsy values: false, 0, empty strings, undefined, null
